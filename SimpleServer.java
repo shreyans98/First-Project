@@ -9,6 +9,10 @@ public class SimpleServer
         while(true)
         {
             final Socket client = server.accept();
+             // 1. Read HTTP request from the client socket
+      // 2. Prepare an HTTP response
+      // 3. Send HTTP response to the client
+      // 4. Close the socket
             
         }    }
 }
